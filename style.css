@@ -32,7 +32,7 @@
 .primary-btn {
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     padding: 18px 35px;
     border: 0;
     height: 50px;
@@ -80,6 +80,145 @@
 .list {
     padding: 10px 0;
 }
+
 .fa-check {
     color: green;
+}
+
+/* My plans section styles */
+.my-plan {
+    padding: 0 200px 130px;
+}
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.my-plans-section {
+    display: flex;
+    gap: 130px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 750;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+/*  Gradient section styles*/
+.gradient {
+    background: url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.gradient-content {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    padding: 60px 800px 60px 60px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.gradient .primary-btn {
+    background-color: white;
+    color: #F15B22;
+
+}
+
+/* Footer section style */
+.footer {
+    background-color: #151414;
+    margin-top: 130px;
+}
+
+.footer-section {
+    display: flex;
+    padding: 0px 230px;
+}
+
+.future {
+    color: #FFFFFF;
+    padding-right: 200px;
+    margin: 95px 0px 100px 10px;
+}
+
+.mail {
+    font-size: 13px;
+
+}
+
+.phone {
+    margin: 25px 0;
+    font-size: 13px;
+
+}
+
+.future a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 26px;
+}
+
+
+.form {
+    padding-left: 200px;
+    margin: 10px 60px 30px 0px;
+}
+
+.form .section-title {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.form-mail {
+    border: 2px solid white;
+    width: 150%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #151414;
+}
+
+.footer .form .primary-btn {
+    background-color: white;
+    color: #F15B22;
+    margin-top: 15px;
 }
