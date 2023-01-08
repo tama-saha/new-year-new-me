@@ -87,20 +87,21 @@
 
 /* My plans section styles */
 .my-plan {
-    padding: 0 200px 130px;
+    padding-bottom: 130px;
 }
 
 .section-title {
     color: #151414;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 80px 0;
 }
 
 .my-plans-section {
     display: flex;
-    gap: 130px;
+    gap: 180px;
+    justify-content: center;
 }
 
 .plan {
@@ -126,13 +127,14 @@
     background: url('images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin: 0px 150px;
+    border-radius: 10px;
 }
 
-
 .gradient-content {
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-    padding: 60px 800px 60px 60px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    padding: 60px 400px 60px 60px;
+    border-radius: 10px;
 }
 
 .gradient-title {
