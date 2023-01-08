@@ -6,13 +6,16 @@
 /* Header style */
 .header {
     background-image: url('images/banner/banner1.png');
-    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
 }
 
 .header-background {
     color: #151414;
     text-align: right;
-    padding: 300px 150px 200px 800px;
+    padding: 165px 150px 0 800px;
 }
 
 .header-title {
@@ -36,4 +39,47 @@
     background-color: #fd6e0a;
     border-radius: 5px;
     text-align: center;
+}
+
+/* Body description style */
+.previous-year-history {
+    display: flex;
+    background-color: none;
+    padding-top: 130px
+}
+
+.image {
+    padding-left: 100px;
+}
+
+.body-description {
+    padding: 250px 200px 50px 80px;
+    font-size: 15px;
+}
+
+.body-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.body-description-one {
+    color: #444343;
+    font-weight: 400;
+    line-height: 26px;
+
+    padding-bottom: 10px;
+}
+
+.lists {
+    color: #444343;
+    font-weight: 400;
+}
+
+.list {
+    padding: 10px 0;
+}
+.fa-check {
+    color: green;
 }
